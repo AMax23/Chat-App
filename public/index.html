@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link href="'http://fonts.googleapis.com/css?family-Montserrat:400,700%7CPT+Serif:400,700,400italic' rel = 'stylesheet">
+    <link href="https://fonts.googleapis.com/css?family-Montserrat|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+
+    <div class="container">
+
+        <div class="onlineUsers">
+
+            <header>
+                <h1>Online Users</h1>
+            </header>
+
+            <!--Display online users in a list-->
+            <div class="users">
+                <ul class="newUser">
+
+                    <!--<li>-->
+                    <!--<p>User1</p>-->
+                    <!--</li>-->
+
+                </ul>
+
+            </div>
+
+            <div class="currentUser">
+                <h4 class="currentUserText"></h4>
+
+            </div>
+
+        </div>
+
+        <div class="chatDisplay">
+
+            <div class="messages">
+
+                <!--<div class=messageContainer>-->
+                <!--<div class="username">User2</div>-->
+                <!--<div class="textMessage">-->
+                <!--<div class="chatBubble"></div>-->
+                <!--<div class="innerMessage">What is happening??</div>-->
+                <!--</div>-->
+                <!--<div class="timestamp">-->
+                <!--<p>10:00 PM</p>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="messageContainer right">-->
+                <!--<div class="username"><p>User1</p></div>-->
+                <!--<div class="textMessage">-->
+                <!--<div class="chatBubble"></div>-->
+                <!--<div class="innerMessage"><p>my message</p></div>-->
+                <!--</div>-->
+                <!--<div class="timestamp">-->
+                <!--<p>10:25 PM</p>-->
+                <!--</div>-->
+                <!--</div>-->
+
+            </div>
+
+            <div class="messageBox">
+                <form action="" id="messageForm">
+                    <input autocomplete="off" id="messageContent" placeholder="Speak your mind...">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+
+</body>
+</html>
